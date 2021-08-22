@@ -49,8 +49,6 @@ class PagingNavigation : LinearLayoutCompat {
                     val width = if (it == value) shapeSelectedWidth else shapeSize
                     val height = if (it == value) shapeSelectedHeight else shapeSize
 
-                    view.isSelected = it == value
-
                     val layoutParams = view.layoutParams as LayoutParams
                     layoutParams.width = width.toInt()
                     layoutParams.height = height.toInt()
@@ -58,6 +56,7 @@ class PagingNavigation : LinearLayoutCompat {
                     view.layoutParams = layoutParams
                 }
 
+                view.isSelected = it == value
             }
         }
 
