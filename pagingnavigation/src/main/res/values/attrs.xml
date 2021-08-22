@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PagingNavigation">
+        <attr name="shape" format="integer" />
+        <attr name="shapeSize" format="dimension" />
+        <attr name="shapeSelectedWidth" format="dimension" />
+        <attr name="shapeSelectedHeight" format="dimension" />
+        <attr name="space" format="dimension" />
+        <attr name="count" format="integer" />
+    </declare-styleable>
+</resources>
